@@ -51,6 +51,7 @@ section {
 
 .top{
   display: flex;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -95,6 +96,13 @@ section {
 @media (max-width: 575px) {
   .experience {
     display: block;
+  }
+
+  .top{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
